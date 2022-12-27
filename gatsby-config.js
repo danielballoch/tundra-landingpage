@@ -9,7 +9,7 @@ module.exports = {
   plugins: ["gatsby-plugin-emotion", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap","gsap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/favicon.png"
+      "icon": "src/images/gatsby-icon.png"
     }
   }, {
     resolve: `gatsby-plugin-sharp`,
