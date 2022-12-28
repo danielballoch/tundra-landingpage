@@ -11,7 +11,7 @@ max-width: 100vw;
 `
 
 export default function Index(){
-    let VideoURL = "content/2023_Glacier_Hybrid_Tundra_1.mp4"
+    let VideoURL = "video/2023_Glacier_Hybrid_Tundra_1.mp4"
     return (
         <Wrapper>
             <video
