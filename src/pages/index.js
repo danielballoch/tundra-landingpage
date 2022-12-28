@@ -1,5 +1,4 @@
 import * as React from "react"
-import VideoURL from "../content/2023_Glacier_Hybrid_Tundra_1.mp4"
 import Loading from "../content/Loading.gif"
 import { StaticImage } from "gatsby-plugin-image"
 import styled from '@emotion/styled';
@@ -12,6 +11,7 @@ max-width: 100vw;
 `
 
 export default function Index(){
+    let VideoURL = "content/2023_Glacier_Hybrid_Tundra_1.mp4"
     return (
         <Wrapper>
             <video
