@@ -15,6 +15,7 @@ export default function Index(){
     return (
         <Wrapper>
             <video
+                controls
                 disablePictureInPicture
                 id="BgVideo"
                 title="Tundra Reel"
